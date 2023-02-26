@@ -3,10 +3,10 @@ import React from 'react';
 import Basket from './Basket';
 import Cities from './Cities';
 import Favourites from './Favourites';
-import Login from './Login';
 import Phone from './Phones';
-import Registration from './Registration';
 import Statistics from './Statistics';
+import Logo from './Logo';
+import Auth from './Auth';
 
 import styles from './Navbar.module.scss';
 
@@ -15,8 +15,8 @@ const Navbar = () => {
     <div className={styles.container}>
       <Cities />
       <Phone />
-      <Login />
-      <Registration />
+      <Logo />
+      <Auth />
       <Favourites />
       <Statistics />
       <Basket />
