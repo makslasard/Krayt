@@ -1,11 +1,16 @@
 import React from 'react';
 
+import map from '../../../../assets/img/map.svg';
+import arrowDown from '../../../../assets/img/arrowDown.svg';
+
 import styles from './Cities.module.scss';
 
-const Cities = () => {
+const Cities: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h1>Cities</h1>
+      <img src={map} alt="map" />
+      <p>Санкт-Петербург</p>
+      <img src={arrowDown} alt="arrowDown" />
     </div>
   );
 };

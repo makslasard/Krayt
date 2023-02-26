@@ -5,7 +5,7 @@ import styles from './Registration.modules.scss';
 const Registration = () => {
   return (
     <div className={styles.container}>
-      <h1>Registration</h1>
+      <p>Registration</p>
     </div>
   );
 };
