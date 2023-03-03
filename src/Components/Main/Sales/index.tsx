@@ -1,11 +1,23 @@
 import React from 'react';
+import Card from './Card';
+import Filter from './Filter';
 
-import styles from './Sales.modules.scss';
+import styles from './Sales.module.scss';
+import SpecialOffer from './SpecialOffers';
 
 const Sales = () => {
   return (
     <div className={styles.container}>
-      <h1>Sales</h1>
+      <h2>Распродажа</h2>
+      <div className={styles.filter}>
+        <Filter />
+      </div>
+      <div className={styles.card}>
+        <Card />
+      </div>
+      <div className={styles.specialOffer}>
+        <SpecialOffer />
+      </div>
     </div>
   );
 };

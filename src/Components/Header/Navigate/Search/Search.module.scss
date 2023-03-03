@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  text-align: center;
+  gap: 16px;
+
+  input {
+    border: none;
+    background-color: #f8f8f8;
+
+    &::placeholder {
+      color: #a2a2a2;
+    }
+
+    &:focus {
+      outline: none;
+      background-color: #f8f8f8;
+    }
+  }
+}

@@ -5,9 +5,9 @@ import Registration from './Registration';
 
 import separator from '../../../../assets/img/separator.svg';
 
-import styles from './Auth.modules.scss';
+import styles from './Authorization.module.scss';
 
-const Auth: React.FC = () => {
+const Authorization: React.FC = () => {
   return (
     <div className={styles.container}>
       <Login />
@@ -17,4 +17,4 @@ const Auth: React.FC = () => {
   );
 };
 
-export default Auth;
+export default Authorization;

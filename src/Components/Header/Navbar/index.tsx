@@ -1,25 +1,21 @@
 import React from 'react';
 
-import Basket from './Basket';
 import Cities from './Cities';
-import Favourites from './Favourites';
-import Phone from './Phones';
-import Statistics from './Statistics';
+import Phone from './Phone';
 import Logo from './Logo';
-import Auth from './Auth';
+import Authorization from './Authorization';
+import Panel from './Panel';
 
 import styles from './Navbar.module.scss';
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <div className={styles.container}>
       <Cities />
       <Phone />
       <Logo />
-      <Auth />
-      <Favourites />
-      <Statistics />
-      <Basket />
+      <Authorization />
+      <Panel />
     </div>
   );
 };

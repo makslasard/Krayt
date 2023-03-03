@@ -1,11 +1,20 @@
 import React from 'react';
 
-import styles from './Categories.modules.scss';
+import styles from './Categories.module.scss';
+import Category from './Category';
 
-const Categories = () => {
+const Categories: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h1>Categories</h1>
+      <h2>Популярные категории</h2>
+      <div className={styles.wrapper}>
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+        <Category />
+      </div>
     </div>
   );
 };

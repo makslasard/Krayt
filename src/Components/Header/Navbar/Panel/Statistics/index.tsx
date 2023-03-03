@@ -1,8 +1,8 @@
 import React from 'react';
 
-import statistics from '../../../../assets/img/statistics.svg';
+import statistics from '../../../../../assets/img/statistics.svg';
 
-import styles from './Statistics.modules.scss';
+import styles from './Statistics.module.scss';
 
 const Statistics = () => {
   return (

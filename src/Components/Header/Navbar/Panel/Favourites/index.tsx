@@ -1,8 +1,8 @@
 import React from 'react';
 
-import heart from '../../../../assets/img/heart.svg';
+import heart from '../../../../../assets/img/heart.svg';
 
-import styles from './Favourites.modules.scss';
+import styles from './Favourites.module.scss';
 
 const Favourites = () => {
   return (

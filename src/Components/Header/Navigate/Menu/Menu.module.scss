@@ -5,6 +5,16 @@
     justify-content: space-between;
     gap: 60px;
     margin-right: 50px;
-    margin-left: -10px;
+    margin-left: 20px;
+  }
+
+  a {
+    color: #303030;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      opacity: 0.5;
+    }
   }
 }
