@@ -1,0 +1,43 @@
+.container {
+  margin-bottom: 100px;
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 47px;
+    h2 {
+      font-size: 40px;
+    }
+    .readAll {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.5;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .articles {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    p {
+      color: #8f8f8f;
+      margin-top: 20px;
+      margin-bottom: 14px;
+      font-weight: 500;
+    }
+    h5 {
+      font-size: 16px;
+      font-weight: 600;
+      max-width: 286px;
+    }
+  }
+}

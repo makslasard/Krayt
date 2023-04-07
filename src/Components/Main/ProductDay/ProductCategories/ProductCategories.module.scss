@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 3px;
+  .new {
+    height: 20px;
+    width: 50px;
+    background-color: #495159;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  .hit {
+    height: 20px;
+    width: 50px;
+    background-color: #e1a661;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  .sale {
+    height: 20px;
+    width: 50px;
+    background-color: #5b8a8f;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    text-align: center;
+  }
+}

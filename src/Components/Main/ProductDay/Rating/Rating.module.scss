@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+
+  .wrapper {
+    cursor: pointer;
+    img {
+      margin-right: 5px;
+    }
+  }
+
+  p {
+    margin-left: 5px;
+  }
+}

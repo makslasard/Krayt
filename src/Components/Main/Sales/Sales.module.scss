@@ -2,6 +2,7 @@
   margin-bottom: 120px;
 
   h2 {
+    font-size: 40px;
     margin-bottom: 30px;
   }
 
@@ -10,10 +11,16 @@
   }
 
   .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 120px;
   }
 
   .specialOffer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 120px;
   }
 }

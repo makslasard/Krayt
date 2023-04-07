@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  .buttons {
+    .basket {
+      height: 54px;
+      width: 400px;
+      background-color: #303030;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 15px 0;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .buy {
+      height: 54px;
+      width: 400px;
+      border: 1px solid #303030;
+      color: #303030;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 15px 0;
+      cursor: pointer;
+    }
+  }
+
+  .actions {
+    margin-left: 40px;
+    .save {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+    .compare {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+    .share {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}

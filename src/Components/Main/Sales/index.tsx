@@ -14,8 +14,13 @@ const Sales = () => {
       </div>
       <div className={styles.card}>
         <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
       <div className={styles.specialOffer}>
+        <SpecialOffer />
+        <SpecialOffer />
         <SpecialOffer />
       </div>
     </div>
