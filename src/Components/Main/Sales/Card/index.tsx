@@ -15,13 +15,17 @@ const Card: React.FC = () => {
       <img height={200} width={200} src={cardRing} alt="cardRing" />
       <div className={styles.wrapper}>
         <div className={styles.price}>
-          <p>41 000 P</p>
-          <span>65 000 P</span>
+          <div className={styles.rate}>
+            <p>41 000 P</p>
+            <span>65 000 P</span>
+          </div>
           <div className={styles.sale}>
             <p>-45%</p>
           </div>
         </div>
-        <p>Стильное кольцо из белого золота c бриллиантами</p>
+        <div className={styles.descr}>
+          <p>Стильное кольцо из белого золота c бриллиантами</p>
+        </div>
       </div>
       <img height={20} width={20} src={heart} alt="heart" className={styles.heart} />
       <img height={20} width={20} src={eye} alt="eye" className={styles.eye} />

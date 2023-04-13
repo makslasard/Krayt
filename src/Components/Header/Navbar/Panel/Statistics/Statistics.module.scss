@@ -2,6 +2,7 @@
   display: flex;
 
   img {
+    transition: all 0.3s ease;
     &:hover {
       opacity: 0.5;
       cursor: pointer;

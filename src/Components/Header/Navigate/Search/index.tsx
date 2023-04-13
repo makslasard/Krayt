@@ -9,7 +9,7 @@ const Search: React.FC = () => {
   return (
     <div className={styles.container}>
       <img src={separatorSearch} alt="separatorSearch" />
-      <img src={search} alt="search" />
+      <img src={search} alt="search" className={styles.search} />
       <input type="text" placeholder="Поиск по сайту" />
     </div>
   );

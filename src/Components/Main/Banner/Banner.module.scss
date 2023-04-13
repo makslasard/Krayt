@@ -26,6 +26,7 @@
     background-color: #303030;
     text-transform: uppercase;
     color: #fff;
+    transition: all 0.3s ease;
 
     &:hover {
       opacity: 0.5;
@@ -40,6 +41,7 @@
   top: 250px;
   left: 24px;
   cursor: pointer;
+  transition: all 0.3s ease;
 
   &:hover {
     opacity: 0.5;
@@ -51,6 +53,7 @@
   top: 250px;
   right: 24px;
   cursor: pointer;
+  transition: all 0.3s ease;
 
   &:hover {
     opacity: 0.5;

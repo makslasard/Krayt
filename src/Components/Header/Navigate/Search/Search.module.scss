@@ -3,9 +3,18 @@
   text-align: center;
   gap: 16px;
 
+  .search {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
   input {
     border: none;
     background-color: #f8f8f8;
+    cursor: pointer;
 
     &::placeholder {
       color: #a2a2a2;

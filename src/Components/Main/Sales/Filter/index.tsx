@@ -9,7 +9,7 @@ const Filter: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <div className={styles.filter}>
+        <div className={styles.pressed}>
           <p>Кольцо</p>
         </div>
         <div className={styles.filter}>
